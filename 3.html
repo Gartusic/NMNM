@@ -1,68 +1,101 @@
 <!doctype html>
 <html>
+
 <head>
-<title>냐먀냐먀월드</title>
-<meta charset="utf-8">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+    <title>냐먀냐먀월드</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
 
-<style>
-    title{ color:#dd7bae;}
-    
-    a {
-        border:5px cadetblue;
-        color: #dd7bae;
-        text-decoration:none;
-    }
-
-    ol { text-align: left;
-        color: #dd7bae;
+    <style>
+        .title {
+            border-bottom: 5px cadetblue solid;
+            padding: 30px;
+            display: block;
+            font-size: 72px;
+            text-align: center;
+            color: #dd7bae;
         }
-    
-    h1 {
-        border:5px cadetblue solid;
-        padding:20px;
-        margin:20px;
-        display:block;
-        font-size: 50px;
-        text-align: center;
-        color:#dd7bae;
-    }
-    body {
-        text-align: center;
-        color: #f86cb4;
-        background-color: rgb(235, 255, 255);
-        font-family: 'Sunflower', sans-serif;
-    }
 
-</style>
+        a {
+            border: 5px cadetblue;
+            color: #dd7bae;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: #dd7bae;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+            text-align: center;
+            color: #f86cb4;
+            background-color: rgb(235, 255, 255);
+            font-family: 'Sunflower', sans-serif;
+        }
+
+        #grid ol {
+            margin: 0;
+            text-align: left;
+            font-size: 20px;
+            color: #dd7bae;
+            border-right: 5px solid cadetblue;
+            width: 200px;
+            padding: 20px;
+        }
+
+        .ourspace {
+            size: 65px;
+            border-right: 5px solid cadetblue;
+            background-color: rgb(241, 248, 248);
+
+
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+    </style>
+
 </head>
+
 <body>
-<h1><a href="index.html">냐먀냐먀월드</a></h1>
-<ol>
-<li><a href="1.html">뉴뮤땅과 냐먀땅</a></li>
-<li><a href="2.html">뉴뮤땅</a></li>
-<li><a href="3.html">냐먀땅</a></li>
-</ol>
-<h1>냐먀땅</h1>
-<p
-style="margin-top:50px;">냐먀땅은 뉴뮤땅의 남자친구이다. <br>
-냐먀땅은 침착하고 차분한 분위기를 갖고있다. 하지만 어쩔때는 답답하게 느껴지기도 한다.<br>
-그것이 바로 냐먀땅의 매력이다. <br>
-냐먀땅은 가끔 귀여운 짓을 하기도 한다. <br>
-그게 무슨 짓이냐고? 그건 냐먀땅과 직접 얘기를 나누면 알게 될 것이다.<br>
-냐먀땅은 당신의 관심을 기다리고 있다.</p>
-냐먀냐먀. //ㅅ/// <br>
-<br>
-<p>여기부터는 냐먀땅의 작품을 전시할거야!<br>
-유튜브에 있는 냐먀땅의 곡을 가져왔어! 냐먀땅의 섬세한 작업이 돋보이는구나!!</p>
-<p>
-    <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/0eWj6fN93w8" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</p>
-<a href="https://www.youtube.com/user/ZNdiadl24">뉴뮤땅의 공간으로 가기</a><br>
-<a href="https://www.youtube.com/channel/UCcDIvyqZWW0tSlr2gtwV7qw">냐먀땅의 공간으로 가기</a><br>
-</body></html>
+    <h1><a href="index.html" class="title">냐먀냐먀월드</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">뉴뮤땅과 냐먀땅</a></li>
+            <li><a href="2.html">뉴뮤땅</a></li>
+            <li><a href="3.html">냐먀땅</a></li>
+        </ol>
+        <div>
+            <h1>냐먀땅</h1>
+            <p style="margin-top:50px;">냐먀땅은 뉴뮤땅의 남자친구이다. <br>
+                냐먀땅은 침착하고 차분한 분위기를 갖고있다. 하지만 어쩔때는 답답하게 느껴지기도 한다.<br>
+                그것이 바로 냐먀땅의 매력이다. <br>
+                냐먀땅은 가끔 귀여운 짓을 하기도 한다. <br>
+                그게 무슨 짓이냐고? 그건 냐먀땅과 직접 얘기를 나누면 알게 될 것이다.<br>
+                냐먀땅은 당신의 관심을 기다리고 있다.</p>
+            냐먀냐먀. //ㅅ/// <br>
+            <br>
+            <p>여기부터는 냐먀땅의 작품을 전시할거야!<br>
+                유튜브에 있는 냐먀땅의 곡을 가져왔어! 냐먀땅의 섬세한 작업이 돋보이는구나!!</p>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0eWj6fN93w8" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </p>
+        </div>
+    </div>
+    <button class="ourspace"><a href="https://www.youtube.com/user/ZNdiadl24">♡뉴뮤땅의 공간으로 가기♡</a></button>
+    <button class="ourspace"><a href="https://www.youtube.com/channel/UCcDIvyqZWW0tSlr2gtwV7qw">♡냐먀땅의 공간으로
+            가기♡</a></button><br>
+</body>
+
+</html>

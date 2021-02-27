@@ -1,59 +1,92 @@
 <!doctype html>
 <html>
+
 <head>
-<title>냐먀냐먀월드</title>
-<meta charset="utf-8">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+    <title>냐먀냐먀월드</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
 
-<style>
-    title{ color:#dd7bae;}
-    
-    a {
-        border:5px cadetblue;
-        color: #dd7bae;
-        text-decoration:none;
-    }
-
-    ol { text-align: left;
-        color: #dd7bae;
+    <style>
+        .title {
+            border-bottom: 5px cadetblue solid;
+            padding: 30px;
+            display: block;
+            font-size: 72px;
+            text-align: center;
+            color: #dd7bae;
         }
-    
-    h1 {
-        border:5px cadetblue solid;
-        padding:20px;
-        margin:20px;
-        display:block;
-        font-size: 50px;
-        text-align: center;
-        color:#dd7bae;
-    }
-    body {
-        text-align: center;
-        color: #f86cb4;
-        background-color: rgb(235, 255, 255);
-        font-family: 'Sunflower', sans-serif;
-    }
 
-</style>
+        a {
+            border: 5px cadetblue;
+            color: #dd7bae;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: #dd7bae;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+            text-align: center;
+            color: #f86cb4;
+            background-color: rgb(235, 255, 255);
+            font-family: 'Sunflower', sans-serif;
+        }
+
+        #grid ol {
+            margin: 0;
+            text-align: left;
+            font-size: 20px;
+            color: #dd7bae;
+            border-right: 5px solid cadetblue;
+            width: 200px;
+            padding: 20px;
+        }
+
+        .ourspace {
+            size: 65px;
+            border-right: 5px solid cadetblue;
+            background-color: rgb(241, 248, 248);
+
+
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+    </style>
 
 </head>
+
 <body>
-<h1><a href="index.html">냐먀냐먀월드</a></h1>
-<ol>
-<li><a href="1.html">뉴뮤땅과 냐먀땅</a></li>
-<li><a href="2.html">뉴뮤땅</a></li>
-<li><a href="3.html">냐먀땅</a></li>
-</ol>
-<h1>뉴뮤땅과 냐먀땅</h1>
-<p
-style="margin-top:50px;">뉴뮤땅과 냐먀땅은 사귀는 사이이다. <br>그 둘은 아주 지적이면서 동시에 독보적인 갬성을 갖고 있으며,
-그러한 성향을 적극 활용하기 위해 코딩을 배우고 있다. <br>언젠가 그 둘은 싸이버 세계를 <strong><u>지배</u></strong>할 것이다..~!</p>
-킄크킄...기.대.해.라.<br>
-<br>
-<img src="world_domination.jpg" width="50%"> <br>
-<a href="https://www.youtube.com/user/ZNdiadl24">뉴뮤땅의 공간으로 가기</a><br>
-<a href="https://www.youtube.com/channel/UCcDIvyqZWW0tSlr2gtwV7qw">냐먀땅의 공간으로 가기</a><br>
+    <h1><a href="index.html" class="title">냐먀냐먀월드</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">뉴뮤땅과 냐먀땅</a></li>
+            <li><a href="2.html">뉴뮤땅</a></li>
+            <li><a href="3.html">냐먀땅</a></li>
+        </ol>
+        <div>
+            <h1>뉴뮤땅과 냐먀땅</h1>
+            <p style="margin-top:50px;">뉴뮤땅과 냐먀땅은 사귀는 사이이다. <br>그 둘은 아주 지적이면서 동시에 독보적인 갬성을 갖고 있으며,
+                그러한 성향을 적극 활용하기 위해 코딩을 배우고 있다. <br>언젠가 그 둘은 싸이버 세계를 <strong><u>지배</u></strong>할 것이다..~!</p>
+            킄크킄...기.대.해.라.<br>
+            <br>
+            <img src="world_domination.jpg" width="50%"> <br>
+        </div>
+    </div>
+    <button class="ourspace"><a href="https://www.youtube.com/user/ZNdiadl24">♡뉴뮤땅의 공간으로 가기♡</a></button>
+    <button class="ourspace"><a href="https://www.youtube.com/channel/UCcDIvyqZWW0tSlr2gtwV7qw">♡냐먀땅의 공간으로
+            가기♡</a></button><br>
 
 
-</body></html>
+</body>
+
+</html>
